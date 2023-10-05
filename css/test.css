@@ -11,11 +11,12 @@
     flex-direction: column;
     box-shadow: 2px 2px 16px -2px;
 }
-.container .calculator input {
-    width: 99%;
+.container .calculator p {
+    width: 100%;
     padding: 30px 0px;
     font-size: xx-large;
-    border: none;
+    border: 1px solid black;
+    margin: 0;
 }
 .container .calculator .buttons {
     display: grid;

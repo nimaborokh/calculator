@@ -9,23 +9,25 @@
     <body>
         <div class="container">
             <div class="calculator">
-                <input type="text" id="demo" disabled/>
+                <p id="demo"></p>
                 <div class="buttons">
-                    <button class="" onclick="">c</button>
-                    <button class="" onclick=""></button>
-                    <button class="" onclick="">÷</button>
-                    <button class="" onclick="">x</button>
-                    <button class="number" onclick="">1</button>
-                    <button class="number" onclick="">2</button>
-                    <button class="number" onclick="">3</button>
-                    <button class="" onclick="">-</button>
-                    <button class="number" onclick="">4</button>
-                    <button class="number" onclick="">5</button>
-                    <button class="number" onclick="">6</button>
-                    <button class="" onclick="">+</button>
-                    <button class="number" onclick="">7</button>
-                    <button class="number" onclick="">8</button>
-                    <button class="number" onclick="">9</button>
+                    <button class="" onclick="clear()">c</button>
+                    <button></button>
+                    <button class="" onclick="buttonsValue(÷)">÷</button>
+                    <button class="" onclick="buttonsValue(x)">x</button>
+                    <button class="number" onclick="buttonsValue(1)">1</button>
+                    <button class="number" onclick="buttonsValue(2)">2</button>
+                    <button class="number" onclick="buttonsValue(3)">3</button>
+                    <button class="buttonsValue()" onclick="buttonsValue(-)">
+                        -
+                    </button>
+                    <button class="number" onclick="buttonsValue(4)">4</button>
+                    <button class="number" onclick="buttonsValue(5)">5</button>
+                    <button class="number" onclick="buttonsValue(6)">6</button>
+                    <button class="" onclick="buttonsValue(+)">+</button>
+                    <button class="number" onclick="buttonsValue(7)">7</button>
+                    <button class="number" onclick="buttonsValue(8)">8</button>
+                    <button class="number" onclick="buttonsValue(9)">9</button>
                     <button class="equal" onclick="">=</button>
                 </div>
             </div>
