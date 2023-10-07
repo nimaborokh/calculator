@@ -5,3 +5,4 @@ function buttonsValue(a) {
 function cleard() {
     p.value= "";
 }
+
