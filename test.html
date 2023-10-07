@@ -9,20 +9,39 @@
     <body>
         <div class="container">
             <div class="calculator">
-                <input type="text" id="demo" disabled />
+                <input
+                    type="text"
+                    id="demo"
+                    onkeyup="inputValue(this.id)"
+                    disabled
+                />
                 <div class="buttons">
                     <button class="charector" onclick="cleard()">c</button>
-                    <button class="charector" onclick="buttonsValue('÷')">÷</button>
-                    <button class="charector" onclick="buttonsValue('×')">×</button>
-                    <button class="pop"><img src="./img/icons8-clear-50.png" style="width: 40%; margin-top: 10px;" alt=""></button>
+                    <button class="charector" onclick="buttonsValue('÷')">
+                        ÷
+                    </button>
+                    <button class="charector" onclick="buttonsValue('x')">
+                        x
+                    </button>
+                    <button class="pop">
+                        <img
+                            src="./img/icons8-clear-50.png"
+                            style="width: 40%; margin-top: 10px"
+                            alt=""
+                        />
+                    </button>
                     <button class="number" onclick="buttonsValue(1)">1</button>
                     <button class="number" onclick="buttonsValue(2)">2</button>
                     <button class="number" onclick="buttonsValue(3)">3</button>
-                    <button class="charector" onclick="buttonsValue('-')">-</button>
+                    <button class="charector" onclick="buttonsValue('-')">
+                        -
+                    </button>
                     <button class="number" onclick="buttonsValue(4)">4</button>
                     <button class="number" onclick="buttonsValue(5)">5</button>
                     <button class="number" onclick="buttonsValue(6)">6</button>
-                    <button class="charector" onclick="buttonsValue('+')">+</button>
+                    <button class="charector" onclick="buttonsValue('+')">
+                        +
+                    </button>
                     <button class="number" onclick="buttonsValue(7)">7</button>
                     <button class="number" onclick="buttonsValue(8)">8</button>
                     <button class="number" onclick="buttonsValue(9)">9</button>
