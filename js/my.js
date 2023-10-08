@@ -5,8 +5,10 @@ function buttonsValue(a) {
 function cleard() {
     p.value = "";
 }
-function inputValue(id) {
-    let element = document.getElementById(id);
-    let value = element.value;
-    console.log(value);
+function valuee() {
+    let value = p.value;
+    let newValue = value.replace("x", "*");
+    let newn = newValue.replace("÷", "/");
+    let result = eval(newn);
+    console.log(result);
 }
