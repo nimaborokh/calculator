@@ -33,6 +33,7 @@ html {
     background-color: white;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    text-align: center;
 }
 .container .calculator .buttons {
     display: grid;
@@ -53,6 +54,9 @@ html {
 }
 .container .calculator .buttons .equal {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container .calculator .buttons .equal:hover {
     background-color: rgb(225, 225, 225);
@@ -68,4 +72,14 @@ html {
 }
 .container .calculator .buttons .pop:hover {
     background-color: rgb(225, 225, 225);
+}
+.circale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color:#fb732c;
+    border-radius: 50px;
+    color: white;
 }
