@@ -45,27 +45,27 @@ html {
     font-size: xx-large;
 }
 .container .calculator .buttons .number {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: white;
+    color: black;
 }
 .container .calculator .buttons .number:hover {
-    background-color: rgb(45, 45, 45);
+    background-color: rgb(225, 225, 225);
 }
 .container .calculator .buttons .equal {
-    background-color: greenyellow;
+    background-color: white;
 }
 .container .calculator .buttons .equal:hover {
-    background-color: rgb(205, 250, 136);
+    background-color: rgb(225, 225, 225);
 }
 .container .calculator .buttons .charector {
-    background-color: blueviolet;
+    background-color: white;
 }
 .container .calculator .buttons .charector:hover {
-    background-color: rgb(160, 73, 241);
+    background-color: rgb(225, 225, 225);
 }
 .container .calculator .buttons .pop {
-    background-color: red;
+    background-color: white;
 }
 .container .calculator .buttons .pop:hover {
-    background-color: rgb(250, 79, 79);
+    background-color: rgb(225, 225, 225);
 }
